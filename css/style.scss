@@ -1,0 +1,41 @@
+@import "_global";
+
+body {
+  background-color: grey;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-ez2mWNj421k%2FU08wvuu065I%2FAAAAAAAAGP8%2FqnNfDBLwo2I%2Fs1600%2Fdesktop-wallpapers-of-coffee.jpg&f=1&nofb=1");
+  background-position: center;
+  background-size: cover;
+}
+
+#logo {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding-top: 7vh;
+}
+
+#logo > img {
+  width: 27vw;
+  height: 15vh;
+}
+
+#main_body {
+  display: grid;
+  grid-auto-flow: row;
+  padding-top: 55vh;
+  row-gap: 80px;
+  align-items: center;
+  justify-items: center;
+}
+
+#main_body > a {
+  background-color: orange;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+}
